@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02cd94f8e30a0d545a928cba6be8d89e, type: 3}
+  m_Name: New Skin Database
+  m_EditorClassIdentifier: 
+  sp:
+  - skin_Name: Happy
+    _sprite: {fileID: 21300000, guid: 30c98c8c50b03454ab01d64932bd5d69, type: 3}
+  - skin_Name: Tribal
+    _sprite: {fileID: 21300000, guid: 819082b214fe4564a8075be999e86606, type: 3}
+  - skin_Name: Pinata
+    _sprite: {fileID: 21300000, guid: f9348f58a90abcd4fbd1fdbce219eefe, type: 3}
+  - skin_Name: White
+    _sprite: {fileID: 21300000, guid: 9af0c401df0abd4479dce69066b5be43, type: 3}
+  - skin_Name: Chimmy
+    _sprite: {fileID: 21300000, guid: de59c8d34e3962148990bc004c7242a5, type: 3}
+  - skin_Name: Cooky
+    _sprite: {fileID: 21300000, guid: 85d687737782bb34497021c4b94aded9, type: 3}
+  - skin_Name: Koya
+    _sprite: {fileID: 21300000, guid: 94dde5c61d19af34994913753bda5887, type: 3}
+  - skin_Name: Mang
+    _sprite: {fileID: 21300000, guid: 4dbdcedfe3de80d4486f1d43ffed0082, type: 3}
+  - skin_Name: RJ
+    _sprite: {fileID: 21300000, guid: 6b8f7ae0dd59e0f46be8243bb9f225d8, type: 3}
+  - skin_Name: Shooky
+    _sprite: {fileID: 21300000, guid: 2c6f4b23a0d064647adcd483783507d4, type: 3}
+  - skin_Name: Tata
+    _sprite: {fileID: 21300000, guid: 0311275e1299ea54d848937030172ae4, type: 3}

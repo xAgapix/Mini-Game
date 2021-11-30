@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6326720110923379842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 531430760957707938}
+  - component: {fileID: 2222564505914907033}
+  m_Layer: 0
+  m_Name: AUDIO MANAGER
+  m_TagString: AudioManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &531430760957707938
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6326720110923379842}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.466273, y: 39.724117, z: -23.564308}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2222564505914907033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6326720110923379842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da7e92129f69d8c45bb02e3f8cc8fb87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundArray:
+  - soundClip: {fileID: 8300000, guid: 1e658f680ad663c498b4ae880c5afec3, type: 3}
+    soundName: Bounce
+    volume: 1
+    loop: 0
+    playAwake: 0
+    sound: {fileID: 0}
+  - soundClip: {fileID: 8300000, guid: e049d61bb34103649818e865a175afa6, type: 3}
+    soundName: Countdown
+    volume: 1
+    loop: 0
+    playAwake: 0
+    sound: {fileID: 0}
+  - soundClip: {fileID: 8300000, guid: eac23adc7fc00024f9a99a3642f3d7ea, type: 3}
+    soundName: Fly
+    volume: 1
+    loop: 0
+    playAwake: 0
+    sound: {fileID: 0}
+  - soundClip: {fileID: 8300000, guid: 4fbec05852bc5da49beb209d1b022add, type: 3}
+    soundName: Beep
+    volume: 1
+    loop: 0
+    playAwake: 0
+    sound: {fileID: 0}
+  - soundClip: {fileID: 8300000, guid: 876695ec703af594c9f7ac877d17b299, type: 3}
+    soundName: Click
+    volume: 0.5
+    loop: 0
+    playAwake: 0
+    sound: {fileID: 0}
+  - soundClip: {fileID: 8300000, guid: c2778988cad17044495160bb8dc91f10, type: 3}
+    soundName: Coins
+    volume: 1
+    loop: 0
+    playAwake: 0
+    sound: {fileID: 0}
+  - soundClip: {fileID: 8300000, guid: e549cafa382f63d4e956ace9b05f59ab, type: 3}
+    soundName: Background
+    volume: 0.5
+    loop: 1
+    playAwake: 0
+    sound: {fileID: 0}
+  - soundClip: {fileID: 8300000, guid: 27c2d6bf8be56e94688213d2b7b3932a, type: 3}
+    soundName: Menu Background
+    volume: 0.5
+    loop: 1
+    playAwake: 0
+    sound: {fileID: 0}
+  - soundClip: {fileID: 8300000, guid: dfe6259fe6065a64e823184faccc88a6, type: 3}
+    soundName: Victory
+    volume: 0.5
+    loop: 0
+    playAwake: 0
+    sound: {fileID: 0}
+  - soundClip: {fileID: 8300000, guid: d58a282b71e0be841b6d8d627e982a1f, type: 3}
+    soundName: Checkpoint
+    volume: 0.5
+    loop: 0
+    playAwake: 0
+    sound: {fileID: 0}
+  SFXnameList:
+  - Click
+  - Bounce
+  - Countdown
+  - Fly
+  - Coins
+  - Beep
+  - Victory
+  - Checkpoint
+  GAMEnameList:
+  - Menu Background
+  - Background
+  BGMusic: Menu Background
